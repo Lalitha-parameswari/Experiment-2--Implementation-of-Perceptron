@@ -37,10 +37,11 @@ Print the accuracy
 
 
  PROGRAM:
+ ```
  Developed by:C.Lalitha parameswari
 Reg.No: 212219220027
 Program to implement a perceptron for classification using Python.
-~~~
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -106,7 +107,7 @@ plt.plot(range(1, len(classifier.misclassified_samples) + 1),classifier.misclass
 plt.xlabel('Epoch')
 plt.ylabel('Errors')
 plt.show()
-~~~
+```
 OUTPUT:
 DF.HEAD():
 ![pic1](https://user-images.githubusercontent.com/100425381/194464823-f658dc74-ede2-40e8-b347-fd1f81242391.png)
